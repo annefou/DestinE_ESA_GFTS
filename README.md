@@ -2,18 +2,17 @@
 
 A Destination Earth Platform use case.
 
-## How to run the jupyter notebooks?
-
-Jupyter notebooks to showcase GFTS are in the `docs` folder and can be run after installing Python and the required packages listed in the [.binder/environment.yml](https://raw.githubusercontent.com/annefou/DestinE_ESA_GFTS/main/.binder/environment.yml) file.
-
-
-### Clone the github repository
+## Clone the github repository
 
 To get a local copy of the GFTS repository, you can clone it on your local computer and/or server:
 
 ```
 git clone https://github.com/destination-earth/DestinE_ESA_GFTS.git
 ```
+
+## How to run the jupyter notebooks locally?
+
+Jupyter notebooks to showcase GFTS are in the `docs` folder and can be run after installing Python and the required packages listed in the [.binder/environment.yml](https://raw.githubusercontent.com/annefou/DestinE_ESA_GFTS/main/.binder/environment.yml) file.
 
 ### Install Python
 
@@ -42,6 +41,12 @@ Once all the required packages are installed, you can start JupyterLab and run t
 ```
 jupyter lab
 ```
+
+## How to deploy GFTS Hub
+
+Instructions on how to build and deploy GFTS hub are described in [./gfts-track-reconstruction/jupyterhub/README.md](https://github.com/destination-earth/DestinE_ESA_GFTS/blob/main/gfts-track-reconstruction/jupyterhub/README.md).
+
+The current Jupyterhub deployment is done on OVH cloud operator.
 
 ## Contributions
 
