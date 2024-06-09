@@ -1,6 +1,11 @@
 # Global Fish Tracking Service (GFTS)
 
-A Destination Earth Platform use case.
+A Destination Earth Platform use case. 
+
+## Documentation
+
+Documentation can be viewed at [https://destination-earth.github.io/DestinE_ESA_GFTS](https://destination-earth.github.io/DestinE_ESA_GFTS).
+
 
 ## Clone the github repository
 
