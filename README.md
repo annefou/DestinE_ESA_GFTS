@@ -10,7 +10,7 @@ To get a local copy of the GFTS repository, you can clone it on your local compu
 git clone https://github.com/destination-earth/DestinE_ESA_GFTS.git
 ```
 
-## How to run the jupyter notebooks locally?
+## Install and run jupyter notebooks locally from source
 
 Jupyter notebooks to showcase GFTS are in the `docs` folder and can be run after installing Python and the required packages listed in the [.binder/environment.yml](https://raw.githubusercontent.com/annefou/DestinE_ESA_GFTS/main/.binder/environment.yml) file.
 
@@ -42,7 +42,33 @@ Once all the required packages are installed, you can start JupyterLab and run t
 jupyter lab
 ```
 
-## How to deploy GFTS Hub
+## Install and run with containers
+
+Before building the GFTS docker image, you would need to install [docker](https://docs.docker.com/engine/install/).
+
+### Build docker container
+
+Make sure you change directory to `gfts-track-reconstruction/jupyterhub/images/user` before executing the command below:
+
+```
+docker build -t gfts:latest .
+```
+
+### Run GFTS from docker
+
+```
+docker run -p 7777:8888 -i -t gfts:latest jupyter lab --ip=0.0.0.0 --no-browser
+```
+
+Open your web browser and enter the following command:
+
+```
+http://127.0.0.1:7777/lab
+```
+
+Then you need to enter your token: it can be found at the bottom of the printout you got after running the docker run command given above.
+
+## Deploy GFTS Hub on the cloud
 
 Instructions on how to build and deploy GFTS hub are described in [./gfts-track-reconstruction/jupyterhub/README.md](https://github.com/destination-earth/DestinE_ESA_GFTS/blob/main/gfts-track-reconstruction/jupyterhub/README.md).
 
