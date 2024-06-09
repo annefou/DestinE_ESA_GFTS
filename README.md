@@ -2,6 +2,10 @@
 
 A Destination Earth Platform use case.
 
+## How to run the jupyter notebooks?
+
+Jupyter notebooks to showcase GFTS are in the `docs` folder and can be run after installing Python and the required packages listed in the [.binder/environment.yml](https://raw.githubusercontent.com/annefou/DestinE_ESA_GFTS/main/.binder/environment.yml) file.
+
 ## Contributions
 
 Tho contribute to DestinE Open Source SW collections please refer to [Rule of Participation](docs/rule_of_participation.md)
