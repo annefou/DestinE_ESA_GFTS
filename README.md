@@ -15,7 +15,7 @@ To get a local copy of the GFTS repository, you can clone it on your local compu
 git clone https://github.com/destination-earth/DestinE_ESA_GFTS.git
 ```
 
-## Install and run jupyter notebooks locally from source
+## Install and run DestinE_ESA_GFTS jupyter notebooks locally from source
 
 Jupyter notebooks to showcase GFTS are in the `docs` folder and can be run after installing Python and the required packages listed in the [.binder/environment.yml](https://raw.githubusercontent.com/annefou/DestinE_ESA_GFTS/main/.binder/environment.yml) file.
 
@@ -47,7 +47,7 @@ Once all the required packages are installed, you can start JupyterLab and run t
 jupyter lab
 ```
 
-## Install and run with containers
+## Install and run DestinE_ESA_GFTS with containers
 
 Before building the GFTS docker image, you would need to install [docker](https://docs.docker.com/engine/install/).
 
