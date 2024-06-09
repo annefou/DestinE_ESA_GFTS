@@ -4,7 +4,7 @@ A Destination Earth Platform use case.
 
 [![GFTS Jupyter book](https://github.com/destination-earth/DestinE_ESA_GFTS/actions/workflows/deploy.yml/badge.svg)](https://github.com/Fdestination-earth/DestinE_ESA_GFTS/actions/workflows/deploy.yml)
 
-[![GFTS Jupyter Hub](https://github.com/destination-earth/DestinE_ESA_GFTS/actions/workflows/deploy-hub.yml/badge.svg)](https://github.com/Fdestination-earth/DestinE_ESA_GFTS/actions/workflows/deploy-hub.yml)
+[![GFTS Jupyter Hub](https://github.com/destination-earth/DestinE_ESA_GFTS/actions/workflows/deploy-hub.yaml/badge.svg)](https://github.com/Fdestination-earth/DestinE_ESA_GFTS/actions/workflows/deploy-hub.yaml)
 
 
 
