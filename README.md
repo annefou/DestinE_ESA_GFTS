@@ -40,7 +40,7 @@ To build this project, ensure you have Python 3  and all the necessary Python pa
 
 To get a local copy of the GFTS repository, you can clone it on your local computer and/or server:
 
-```
+```bash
 git clone https://github.com/destination-earth/DestinE_ESA_GFTS.git
 ```
 
@@ -50,24 +50,32 @@ The sections below explain how to install and run DestinE_ESA_GFTS jupyter noteb
 
 Jupyter notebooks to showcase GFTS are in the `docs` folder and can be run after installing Python and the required packages listed in the [.binder/environment.yml](https://raw.githubusercontent.com/annefou/DestinE_ESA_GFTS/main/.binder/environment.yml) file.
 
-#### Install Python
+#### Installation with Conda
 
 To install Python, we recommend to install [conda](https://conda.io/projects/conda/en/latest/index.html) or [miniconda](https://docs.anaconda.com/free/miniconda/) and then create a new conda environment using [.binder/environment.yml](https://raw.githubusercontent.com/annefou/DestinE_ESA_GFTS/main/.binder/environment.yml):
 
-```
+```bash
 conda env create -f environment.yml
 ```
 
 Do not forget to switch to the `gfts` conda environment prior to executing any Jupyter notebooks or programs from the GFTS repository.
 
-```
+```bash
 conda activate gfts
 ```
 
 To deactivate the `gfts` environment:
 
-```
+```bash
 conda deactivate
+```
+
+#### Installation with pip
+
+We assume you have installed Python 3.11 on your system. To install the necessary Python package with `pip`:
+
+```bash
+pip install -r requirements.txt
 ```
 
 #### Execution Instructions
@@ -76,7 +84,7 @@ The section below explains how to start JupyerLab and run the Jupyter notebooks.
 
 Once all the required packages are installed, you can start JupyterLab and run the jupyter notebooks from the `docs` folder:
 
-```
+```bash
 jupyter lab
 ```
 
@@ -88,19 +96,19 @@ Before building the GFTS docker image, you would need to install [docker](https:
 
 Make sure you change directory to `gfts-track-reconstruction/jupyterhub/images/user` before executing the command below:
 
-```
+```bash
 docker build -t gfts:latest .
 ```
 
 #### Run GFTS from docker
 
-```
+```bash
 docker run -p 7777:8888 -i -t gfts:latest jupyter lab --ip=0.0.0.0 --no-browser
 ```
 
 Open your web browser and enter the following command:
 
-```
+```bash
 http://127.0.0.1:7777/lab
 ```
 
