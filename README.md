@@ -164,6 +164,9 @@ This project is used by the following companies:
 
 Python, Jupyter Notebooks.
 
+## Citation
+Please refer to the whole course as described in the [CITATION.cff](https://github.com/destination-earth/DestinE_ESA_GFTS/edit/main/CITATION.cff) file
+
 ## License
 
 All documentation and chapter materials in this repository are made available under the CC-BY-4 and the software are made available under the Apache-2 licence; for more details, see the [LICENSE file](https://github.com/destination-earth/DestinE_ESA_GFTS/blob/main/LICENSE).
