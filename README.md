@@ -112,11 +112,6 @@ Instructions on how to build and deploy GFTS hub are described in [./gfts-track-
 
 The current Jupyterhub deployment is done on OVH cloud operator.
 
-[![GFTS Jupyter book](https://github.com/destination-earth/DestinE_ESA_GFTS/actions/workflows/deploy.yml/badge.svg)](https://github.com/destination-earth/DestinE_ESA_GFTS/blob/main/.github/workflows/deploy.yml)
-
-[![GFTS Jupyter Hub](https://github.com/destination-earth/DestinE_ESA_GFTS/actions/workflows/deploy-hub.yaml/badge.svg)](https://github.com/destination-earth/DestinE_ESA_GFTS/blob/main/.github/workflows/deploy-hub.yaml)
-
-
 ## Authors
 
 ### Active contributors
