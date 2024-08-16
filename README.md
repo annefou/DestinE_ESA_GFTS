@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 The section below explains how to start JupyerLab and run the Jupyter notebooks.
 
-Once all the required packages are installed, you can start JupyterLab and run the jupyter notebooks from the `docs` folder:
+Once all the required packages are installed, you can start JupyterLab and execute the jupyter notebooks from the `docs` folder:
 
 ```bash
 jupyter lab
